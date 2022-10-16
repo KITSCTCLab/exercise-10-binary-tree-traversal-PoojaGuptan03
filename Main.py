@@ -41,7 +41,7 @@ def insert(root, new_value) -> BinaryTreeNode:
         # Write your code here
         if root:
             postorder(root.left_child)
-            postorder(root.right)
+            postorder(root.right_child)
             print(root.data, end = " ")
 
 
